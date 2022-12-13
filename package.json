@@ -1,0 +1,27 @@
+{
+  "name": "ourgym_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekgp209/ourGym_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekgp209/ourGym_server/issues"
+  },
+  "homepage": "https://github.com/ekgp209/ourGym_server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
